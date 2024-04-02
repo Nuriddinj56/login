@@ -1,39 +1,18 @@
 {
-  "user": [
+  "users": [
     {
-      "id": "d8b4",
+      "id": "045eba4b-ef52-41f2-a11a-9e28276363ac",
       "username": "nuriddin",
-      "phoneNumber": "998940582277",
+      "phoneNumber": "9989324",
+      "address": "yangiyer",
+      "password": "1234"
+    },
+    {
+      "id": "726fd81f-9c9d-4ca4-8da9-dd03b5cd25f4",
+      "username": "nuriddin",
+      "phoneNumber": "efwef",
       "address": "sirdatyo",
-      "password": "111"
-    },
-    {
-      "id": "6897",
-      "username": "2e",
-      "phoneNumber": "ewrwr",
-      "address": "wre",
-      "password": "11111"
-    },
-    {
-      "id": "82da",
-      "username": "2e",
-      "phoneNumber": "ewrwr",
-      "address": "wre",
-      "password": "11111"
-    },
-    {
-      "id": "19f0",
-      "username": "",
-      "phoneNumber": "1e1e",
-      "address": "eee",
-      "password": "1e"
-    },
-    {
-      "id": "13bc",
-      "username": "111",
-      "phoneNumber": "11w",
-      "address": "1w1",
-      "password": "2"
+      "password": "122"
     }
   ]
 }

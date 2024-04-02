@@ -8,12 +8,13 @@ function Login() {
     const navigate= useNavigate()
     function handleLogin(){
         axios({
-            url:'http://localhost:5000/user?username='+userName,
+            url:'http://localhost:5000/users?username='+userName,
             method:'get'
         }).then((res)=>{
             let user=res.data
             console.log(user);
             if(user[0].userName==userName && user[0].password==password){
+              localStorage.setItem('token',JSON.stringify(user[0].id))
                 navigate('/profile')
             }
         }).catch((err)=>{

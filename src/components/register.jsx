@@ -1,6 +1,8 @@
 import { Link,useNavigate } from "react-router-dom"
 import { useForm } from "react-hook-form"
 import axios from "axios"
+import {v4 as uuidv4} from 'uuid'
+
 
 function Register() {
     
@@ -10,8 +12,9 @@ const navigate = useNavigate()
 function mySumbit(data){
     if(data.password==data.repeatPassword){
         delete data.repeatPassword
+        data.id=uuidv4()
         axios({
-            url:'http://localhost:5000/user',
+            url:'http://localhost:5000/users',
             method:'post',
             data:data
         }).then((res)=>{
